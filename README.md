@@ -65,3 +65,17 @@ Always run the following commands during the development stage and for productio
 Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
 
 Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
+
+## Pasos fets
+
+Clonat repositori.
+
+Posada en marxa del projecte
+
+Inserció de la llibreria font-awesome
+
+Configuració stylelint, normes afegides:
+  "declaration-block-single-line-max-declarations": 1 és per a forçar que si només hi ha una propietat estiga en la mateixa
+  línia.
+
+  block-opening-brace-space-before => força que hi haja un espai davant de les claus
