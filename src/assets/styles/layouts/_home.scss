@@ -11,8 +11,8 @@ body {
   font-family: $font-family-sans-serif;
   font-size: 16px;
   line-height: 24px;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  background-color: $recipe-bg;
+  color: $recipe-font;
 }
 
 .uoc-container {
@@ -21,25 +21,9 @@ body {
   padding: 0;
   border-radius: 2rem;
   text-align: center;
-  background-color: #fff;
+  background-color: $recipe-bg;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.semi-circle {
-  width: 100vw;
-  height: 100vh;
-  background-color: #fff;
-  border-radius: 0 0 50rem 50rem;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  > div {
-    flex: 1;
-  }
-
 }
 
 .uoc-logo {
@@ -70,4 +54,36 @@ body {
   margin-top: 1.5rem;
   font-size: 0.75rem;
   text-align: center;
+}
+
+/*
+* RECIPE STYLES
+*/
+
+.semi-circle {
+  width: 100vw;
+  height: 100vh;
+  background-color: $recipe-base-color;
+  border-radius: 0 0 50rem 50rem;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    flex: 1;
+  }
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.conten-around {
+  justify-content: space-around;
 }

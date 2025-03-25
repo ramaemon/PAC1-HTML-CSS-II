@@ -12,3 +12,5 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 $mqMinWidth: 420px;
 
 $recipe-base-color: #A04747;
+$recipe-bg: color.scale($recipe-base-color, $lightness: 70%);
+$recipe-font: #561C24;
