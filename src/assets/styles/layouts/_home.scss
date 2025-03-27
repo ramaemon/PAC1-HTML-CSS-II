@@ -15,6 +15,71 @@ body {
   color: $recipe-font;
 }
 
+// Posició
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.t-0 {
+  top: 0;
+}
+
+.b-0 {
+  bottom: 0;
+}
+
+.r-0 {
+  right: 0;
+}
+
+.l-0 {
+  left: 0;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+// Grid
+
+.flex-container {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.conten-around {
+  justify-content: space-around;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+// Tipografia
+
+.text-center {
+  text-align: center;
+}
+
+// Aparença
+// Resta d'estils
+
 .uoc-logo {
   display: block;
   margin-left: auto;
@@ -32,17 +97,8 @@ body {
 // CAPÇALERA
 // - - - - - - - - - - - - - - -
 
-
-.flex-container {
-  display: flex;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex1 {
-  flex: 1;
+.banner {
+  max-width: 400px;
 }
 
 // - - - - - - - - - - - - - - - 
@@ -72,41 +128,12 @@ body {
   }
 }
 
-.mx-auto {
-  margin: 0 auto;
-} 
-
-.text-center {
-  text-align: center;
-}
-
-.banner {
-  max-width: 400px;
-}
-
-.conten-around {
-  justify-content: space-around;
-}
-
-.p-absolute {
-  position: absolute;
-}
-
-.p-relative {
-  position: relative;
-}
-.w-200 {
-  width: 200px;
-}
-
-.w-400 {
-  width: 400px;
-}
-
-.t-0 {
-  top: 0;
-}
-
 // - - - - - - - - - - - - - - - 
 // PEU DE PÀGINA
 // - - - - - - - - - - - - - - -
+
+.uoc-footer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
