@@ -9,7 +9,13 @@ $uoc-corporate: #000078;
 $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
+$xx-large: 1400px;
+$x-large: 1200px;
+$large: 992px;
+$medium: 768px;
+$small: 576px;
 $mqMinWidth: 420px;
+
 
 $recipe-base-color: #A04747;
 $recipe-bg: color.scale($recipe-base-color, $lightness: 70%);

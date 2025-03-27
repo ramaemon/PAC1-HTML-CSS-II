@@ -1,11 +1,11 @@
+// - - - - - - - - - - - - - - - 
+// GENERAL
+// - - - - - - - - - - - - - - -
 * {
   box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: $font-family-sans-serif;
@@ -13,17 +13,6 @@ body {
   line-height: 24px;
   background-color: $recipe-bg;
   color: $recipe-font;
-}
-
-.uoc-container {
-  max-width: 800px;
-  margin: auto;
-  padding: 0;
-  border-radius: 2rem;
-  text-align: center;
-  background-color: $recipe-bg;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .uoc-logo {
@@ -39,51 +28,85 @@ body {
   }
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: $uoc-corporate;
+// - - - - - - - - - - - - - - - 
+// CAPÇALERA
+// - - - - - - - - - - - - - - -
 
-  @media (min-width: $mqMinWidth) {
-    font-size: 36px;
-  }
-}
-
-.uoc-footer {
-  margin-top: 1.5rem;
-  font-size: 0.75rem;
-  text-align: center;
-}
-
-/*
-* RECIPE STYLES
-*/
-
-.semi-circle {
-  width: 100vw;
-  height: 100vh;
-  background-color: $recipe-base-color;
-  border-radius: 0 0 50rem 50rem;
-}
-
-.container {
-  padding: 2rem;
-}
 
 .flex-container {
   display: flex;
+}
+
+.flex-wrap {
   flex-wrap: wrap;
-  > div {
-    flex: 1;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+// - - - - - - - - - - - - - - - 
+// CONTINGUT
+// - - - - - - - - - - - - - - -
+
+.container {
+  max-width: 1420px;
+  @media (min-width: $xx-large) {
+    max-width: 1320px;
   }
 
+  @media (min-width: $x-large) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: $large) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $medium) {
+    max-width: 720px;
+  }
+
+  @media (min-width: $small) {
+    max-width: 540px;
+  }
 }
+
+.mx-auto {
+  margin: 0 auto;
+} 
 
 .text-center {
   text-align: center;
 }
 
+.banner {
+  max-width: 400px;
+}
+
 .conten-around {
   justify-content: space-around;
 }
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+.w-200 {
+  width: 200px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.t-0 {
+  top: 0;
+}
+
+// - - - - - - - - - - - - - - - 
+// PEU DE PÀGINA
+// - - - - - - - - - - - - - - -
