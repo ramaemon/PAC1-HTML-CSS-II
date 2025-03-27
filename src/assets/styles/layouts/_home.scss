@@ -29,6 +29,18 @@ body {
   top: 0;
 }
 
+.t-5 {
+  top: 5rem;
+}
+
+.t-10 {
+  top: 10rem;
+}
+
+.t-50 {
+  top: 50rem;
+}
+
 .b-0 {
   bottom: 0;
 }
@@ -71,7 +83,23 @@ body {
   width: 400px;
 }
 
+img {
+  object-fit: cover;
+}
+
 // Tipografia
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
 
 .text-center {
   text-align: center;
@@ -97,8 +125,154 @@ body {
 // CAPÇALERA
 // - - - - - - - - - - - - - - -
 
-.banner {
-  max-width: 400px;
+h1 {
+  margin: 0;
+}
+
+.b--negative-5 {
+  bottom: -5rem;
+}
+
+.t-20 {
+  top: 20rem;
+}
+
+.l-1 {
+  left: 1rem;
+}
+
+.l-2 {
+  left: 2rem;
+}
+
+.l-80 {
+  left: 80%;
+}
+
+.l-90 {
+  left: 90%;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.p--top-3 {
+  padding-top: 3rem;
+}
+
+.p--bottom-3 {
+  padding-bottom: 3rem;
+}
+
+.p--left-3 {
+  padding-left: 3rem;
+}
+
+.p--right-3 {
+  padding-right: 3rem;
+}
+
+.p--top-4 {
+  padding-top: 4rem;
+}
+
+.p--bottom-4 {
+  padding-bottom: 4rem;
+}
+
+.p--left-4 {
+  padding-left: 4rem;
+}
+
+.p--right-4 {
+  padding-right: 4rem;
+}
+
+.p--top-5 {
+  padding-top: 5rem;
+}
+
+.p--bottom-5 {
+  padding-bottom: 5rem;
+}
+
+.p--left-5 {
+  padding-left: 5rem;
+}
+
+.p--right-5 {
+  padding-right: 5rem;
+}
+
+.p--left-6 {
+  padding-left: 6rem;
+}
+
+.p--right-6 {
+  padding-right: 6rem;
+}
+
+.p--top-6 {
+  padding-top: 6rem;
+}
+
+.p--bottom-6 {
+  padding-bottom: 6rem;
+}
+
+.p--bottom-7 {
+  padding-bottom: 7rem;
+}
+
+.p--bottom-8 {
+  padding-bottom: 8rem;
+}
+
+.p--bottom-9 {
+  padding-bottom: 9rem;
+}
+
+.p--bottom-10 {
+  padding-bottom: 10rem;
+}
+
+.w-2 {
+  width: 2rem;
+}
+
+.w-4 {
+  width: 4rem;
+}
+
+.w-5 {
+  width: 5rem;
+}
+
+.w-10 {
+  width: 10rem;
+}
+
+.w-20 {
+  width: 20rem;
+  @media (max-width: $medium) {
+    width: 10rem;
+  }
+}
+
+.w-30 {
+  width: 30rem;
+  @media (max-width: $medium) {
+    width: 15rem;
+  }
+}
+
+.w-40 {
+  width: 40rem;
 }
 
 // - - - - - - - - - - - - - - - 
